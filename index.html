@@ -124,14 +124,17 @@
    <hr>
 
    <section class="contact">
-       <h2 class="text-center">Contact Us</h2>
-       <div class="form">
-           <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your Name">
-           <input class="form-input" type="number" name="phone" id="phone" placeholder="Enter Your Phone no.">
+       <h2 class="text-center">Log In</h2>
+       <form action="index.js" method="post">
+       <div class="form" method="Post">
+           <input class="form-input" type="text" name="name" id="username" placeholder="Enter Your Name">
+           <input class="form-input" type="number" name="phone" id="password" placeholder="Enter Your Password">
            <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your Email">
-           <button class="btn btn-dark">Submit</button>
+           <button class="btn btn-dark" type="button" onclick="getInfo()">Submit</button>
+           <button class="btn btn-dark" type="button" onclick="logout()">Log out</button>
 
        </div>
+    </form>
        <br>
        <br>
        <br>
@@ -158,5 +161,12 @@
    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
    crossorigin="anonymous"></script>
  
+  
 </body>
 </html>
+
+<script src = "index.js"></script>
+
+
+    
+</script>

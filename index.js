@@ -1,7 +1,7 @@
 function getInfo() {
     var username = document.getElementById("username").value
     var password = document.getElementById("password").value
-    Moengage.add_unique_user_id(UNIQUE_ID);
+    //Moengage.add_unique_user_id(UNIQUE_ID);
 
     console.log(" Thank you " + username + " for logging in ")
 }
@@ -12,7 +12,7 @@ function logout(){
 }
 
 function updateUser(){
-    Moengage.update_unique_user_id(NEW_UNIQUE_ID);
+   // Moengage.update_unique_user_id(NEW_UNIQUE_ID);
 }
 
 Moengage.add_first_name("Dominick");

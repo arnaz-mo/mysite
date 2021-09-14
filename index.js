@@ -5,6 +5,14 @@ function getInfo() {
 
     console.log(" Thank you " + username + " for logging in ")
 }
+function userdetails()
+{
+	Moengage.add_first_name("Dom");
+	Moengage.add_last_name("Cobb");
+	Moengage.add_email("dom12@level5.com");
+	Moengage.add_mobile("+12399999999");
+	Moengage.add_user_attribute("Address", ["21","Bangalore","KA"]);
+}
 
 function logout(){
     console.log("Logged out!")

@@ -12,7 +12,7 @@ function userdetails()
 	Moengage.add_email("arnaz@gmail.com");
 	Moengage.add_mobile("+12399999999");
 	Moengage.add_user_attribute("Address", ["21","Bangalore","KA"]);
-	Moengage.add_unique_user_id(email);
+	Moengage.add_unique_user_id("1234");
 }
 
 function logout(){

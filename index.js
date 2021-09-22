@@ -7,11 +7,12 @@ function getInfo() {
 }
 function userdetails()
 {
-	Moengage.add_first_name("Dom");
-	Moengage.add_last_name("Cobb");
-	Moengage.add_email("dom12@level5.com");
+	Moengage.add_first_name("Arnaz");
+	Moengage.add_last_name("S");
+	Moengage.add_email("arnaz@gmail.com");
 	Moengage.add_mobile("+12399999999");
 	Moengage.add_user_attribute("Address", ["21","Bangalore","KA"]);
+	Moengage.add_unique_user_id(email);
 }
 
 function logout(){
